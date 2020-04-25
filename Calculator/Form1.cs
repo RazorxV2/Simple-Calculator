@@ -81,6 +81,9 @@ namespace Calculator
 
         private void Clear_Click(object sender, EventArgs e)
         {
+            rightSide = "";
+            leftSide = "";
+            operand = "";
             resultBox.Text = "";
         }
 
